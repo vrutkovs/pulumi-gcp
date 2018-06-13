@@ -38,7 +38,7 @@ class GetVPNGatewayResult(object):
         The URI of the resource.
         """
 
-def get_v_p_n_gateway(name=None, project=None, region=None):
+def get_vpn_gateway(name=None, project=None, region=None):
     """
     Get a VPN gateway within GCE from its name.
     """

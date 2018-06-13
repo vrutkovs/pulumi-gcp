@@ -23,7 +23,7 @@ class GetLBIPRangesResult(object):
         The IP ranges used for health checks when **Network load balancing** is used
         """
 
-def get_l_b_i_p_ranges():
+def get_lbip_ranges():
     """
     Use this data source to access IP ranges in your firewall rules.
     

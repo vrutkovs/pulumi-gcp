@@ -17,7 +17,7 @@ class GetKMSSecretResult(object):
         Contains the result of decrypting the provided ciphertext.
         """
 
-def get_k_m_s_secret(ciphertext=None, crypto_key=None):
+def get_kms_secret(ciphertext=None, crypto_key=None):
     """
     This data source allows you to use data encrypted with Google Cloud KMS
     within your resource definitions.

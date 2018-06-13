@@ -18,7 +18,7 @@ class GetIAMPolicyResult(object):
         referencing from a resource that supports IAM.
         """
 
-def get_i_a_m_policy(bindings=None):
+def get_iam_policy(bindings=None):
     """
     Generates an IAM policy document that may be referenced by and applied to
     other Google Cloud Platform resources, such as the `google_project` resource.
